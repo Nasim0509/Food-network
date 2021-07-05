@@ -1,0 +1,37 @@
+body{
+    margin: 0 auto;
+}
+.Introduction{
+    display: flex;
+    background-image: url(food-network-main/images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.Intro-text{
+    width: 50%;
+    margin-left: 5%;
+}
+.Intro-text img {
+    width: 60%;
+    margin-left: 10%;
+    padding-left: 10%;
+}
+span{
+    color: orange;
+}
+h1 {
+    color: gray;
+    font-size: 50px;
+}
+h2{
+    color: gray;
+}
+.Intro-text a{
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(to right,#fc8f49,#fe4b2e);
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+  
+}
