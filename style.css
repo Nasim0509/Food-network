@@ -3,9 +3,7 @@ body{
 }
 .Introduction{
     display: flex;
-    background-image: url(food-network-main/images/shapes/Frame\ 58.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
+    margin-bottom: 100px;
 }
 .Intro-text{
     width: 50%;
@@ -32,6 +30,26 @@ h2{
     background-image: linear-gradient(to right,#fc8f49,#fe4b2e);
     border-radius: 10px;
     font-size: 30px;
-    color: white;
-  
+    color: white; 
+}
+.About{
+    display: flex;
+    background-image: url(food-network-main/images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.About-style img{
+    width:30% ;
+    margin-left: 10%;
+    padding-left: 10%;
+}
+.About-style{
+    width: 50%;
+}
+.About-style a{
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(to right,#fc8f49,#fe4b2e);
+    border-radius: 10px;
+    font-size: 30px;
+    color: white; 
 }
